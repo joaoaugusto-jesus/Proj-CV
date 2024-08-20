@@ -75,7 +75,10 @@ table {
     display: flex;
 }
 
-
+.px-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 :root{
     --color-primary: #0e193f;
@@ -159,4 +162,14 @@ hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
 
+}
+
+.tech-item {
+
+    background-color: blue;
+    padding: 0.2rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    color: antiquewhite;
+    align-content: center;
 }
