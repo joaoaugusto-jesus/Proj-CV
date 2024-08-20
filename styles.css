@@ -1,0 +1,162 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------------- RESET END -----------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+
+.text-center{
+
+    text-align: center;
+}
+
+.justify-center{
+
+   justify-content: center;
+}
+
+.text-start{
+
+    text-align: start;
+}
+
+.justify-around{
+
+    justify-content: space-around;
+ }
+
+ .my-1 {
+    margin: 1rem 0;
+ }
+
+ 
+.d-flex {
+    display: flex;
+}
+
+
+
+:root{
+    --color-primary: #0e193f;
+    --color-secundary: #ed740a;
+    --color-terciary: #f7ceab;
+    font-family: "Anek+Devanagari", monospace;
+    background-color: #fcfcfc;
+    overflow-x: hidden;
+    font-size: 16px; /* deve ser sempre divísivelpor 8*/
+
+}
+
+a {
+
+    text-decoration: none;
+    color: var(--color-terciary);
+
+}
+
+header, footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    background-color: var(--color-primary);
+
+}
+
+img {
+
+    width: 150px;
+    height: auto;
+    
+    
+}
+
+figure {
+    display: flex;
+    align-items: center;
+}
+figcaption {
+    color: var(--color-secundary);
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+.list-items {
+
+margin: 0.5rem 0;
+
+}
+
+.left, .right {
+
+    padding: 1rem;
+    width: 45%;
+
+}
+
+h3 {
+
+    font-size: 1.3rem;
+}
+
+h4 {
+
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h5{
+
+    font-style: italic;
+    font-size: 1.15rem;
+
+}
+
+hr {
+
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
