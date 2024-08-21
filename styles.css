@@ -28,6 +28,7 @@ body {
 }
 ol, ul {
 	list-style: none;
+    
 }
 blockquote, q {
 	quotes: none;
@@ -61,7 +62,7 @@ table {
     text-align: start;
     display: flex;
     justify-content: center; /* Center the entire list within its parent */
-    padding: 0; /* Remove default padding */
+    padding: 1rem; /* Remove default padding */
     list-style-type: none; /* Remove bullet points */
 }
 
@@ -73,15 +74,16 @@ table {
  .my-1 {
     margin: 1rem 0;
  }
-
- .my-lang {
+ .HTML-lang {
     
-
     justify-content: center; /* Center the content within each .my-lang element */
     align-items: center; /* Vertically align content */
-    width: 50%; /* Adjust the width if needed to center properly */
+    width: 5%; /* Adjust the width if needed to center properly */
     text-align: center; /* Center the text within each list item */
+ 
  }
+
+ 
 
  
 .d-flex {
@@ -124,12 +126,30 @@ li{
     padding: .1rem;
 }
 header, footer{
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem;
-    align-items: center;
-    background-color: var(--color-primary);
+    
 
+
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--color-primary);
+    width: 100%;
+
+}
+
+header .top-section {
+    display: flex;
+    justify-content: space-between; /* Space between figure and language selector */
+    align-items: center;
+    width: 100%; /* Full width for the top section */
+}
+
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 img {
@@ -139,21 +159,47 @@ img {
     
     
 }
-
 figure {
     display: flex;
+    
     align-items: center;
+    margin-bottom: 0; /* Add space below the figure */
 }
+
 figcaption {
+    display: flex;
+    justify-content: space-between;
     color: var(--color-secundary);
-    margin-left: 2rem;
+    margin-top: 1rem; /* Adjust space between image and caption */
     font-size: 2rem;
+    text-align: center;
+}
+
+ul {
+    display: flex; /* Make the list items horizontal */
+    justify-content: space-between; /* Distribute items evenly across the width */
+    width: 100%; /* Make the list fill the entire width of the header */
+    padding: 0;
+    margin-top: 1rem; /* Margin on top to separate from the top section */
 }
 
 .list-items {
+    
+    flex: 1; /* Make each list item take equal space */
+    text-align: center; /* Center the content within each list item */
+    margin: 0;
+    color: var(--color-terciary);
+    font-size: 8px;
+    justify-content: space-around;
+}
 
-margin: 0.5rem 0;
+.list-items a {
+    color: var(--color-terciary);
+    text-decoration: none;
+}
 
+.list-items a:hover {
+    color: var(--color-secundary);
 }
 
 .left, .right {
@@ -203,6 +249,8 @@ hr {
 
 .HTML-lang {
 
-    display: inline-block;
+    margin-bottom: 1rem; /* Add space below the language selector */
+    text-align: center; 
    
 }
+
