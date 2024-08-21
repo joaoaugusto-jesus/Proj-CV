@@ -59,6 +59,10 @@ table {
 .text-start{
 
     text-align: start;
+    display: flex;
+    justify-content: center; /* Center the entire list within its parent */
+    padding: 0; /* Remove default padding */
+    list-style-type: none; /* Remove bullet points */
 }
 
 .justify-around{
@@ -68,6 +72,15 @@ table {
 
  .my-1 {
     margin: 1rem 0;
+ }
+
+ .my-lang {
+    
+
+    justify-content: center; /* Center the content within each .my-lang element */
+    align-items: center; /* Vertically align content */
+    width: 50%; /* Adjust the width if needed to center properly */
+    text-align: center; /* Center the text within each list item */
  }
 
  
@@ -85,7 +98,7 @@ p {
 }
 
 :root{
-    --color-primary: #0e193f;
+    --color-primary: #0e0e10;
     --color-secundary: #ed740a;
     --color-terciary: #f7ceab;
     font-family: "Anek+Devanagari", monospace;
@@ -102,9 +115,17 @@ a {
 
 }
 
+i {
+
+    margin-right: 1rem;
+}
+
+li{
+    padding: .1rem;
+}
 header, footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 2rem;
     align-items: center;
     background-color: var(--color-primary);
@@ -162,20 +183,26 @@ h5{
 
 hr {
 
-    width: 50%;
+    width: 75%;
     margin-top: 1rem;
     margin-bottom: 1rem;
-
+    
 }
 
 .tech-item {
 
-    background-color: blue;
+    background-color: var(--color-terciary);
     padding: 0.2rem;
     margin: 0.3rem;
     margin-top: 0.5rem; /* Adjusted margin-top */
     border-radius: 5px;
-    color: antiquewhite;
+    color: #0e0e10;
     display: inline-block;  /* This property allows the margin and padding settings to affect each span element properly without forcing them onto new lines (unless there's insufficient horizontal space). */
     
+}
+
+.HTML-lang {
+
+    display: inline-block;
+   
 }
