@@ -1,256 +1,328 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
-    
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* --------------------- RESET END -----------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-.text-center{
-
-    text-align: center;
+.text-center {
+  text-align: center;
 }
 
-.justify-center{
-
-   justify-content: center;
+.justify-center {
+  justify-content: center;
 }
 
-.text-start{
-
-    text-align: start;
-    display: flex;
-    justify-content: center; /* Center the entire list within its parent */
-    padding: 1rem; /* Remove default padding */
-    list-style-type: none; /* Remove bullet points */
+.text-start {
+  text-align: start;
+  display: flex;
+  justify-content: center; /* Center the entire list within its parent */
+  padding: 1rem; /* Remove default padding */
+  list-style-type: none; /* Remove bullet points */
 }
 
-.justify-around{
+.justify-around {
+  justify-content: space-around;
+}
 
-    justify-content: space-around;
- }
+.my-1 {
+  margin: 1rem 0;
+}
+.HTML-lang {
+  justify-content: center; /* Center the content within each .my-lang element */
+  align-items: center; /* Vertically align content */
+  width: 5%; /* Adjust the width if needed to center properly */
+  text-align: center; /* Center the text within each list item */
+}
 
- .my-1 {
-    margin: 1rem 0;
- }
- .HTML-lang {
-    
-    justify-content: center; /* Center the content within each .my-lang element */
-    align-items: center; /* Vertically align content */
-    width: 5%; /* Adjust the width if needed to center properly */
-    text-align: center; /* Center the text within each list item */
- 
- }
-
- 
-
- 
 .d-flex {
-    display: flex;
+  display: flex;
 }
 
 .px-1 {
-    padding-left: 1rem;
-    padding-right: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 p {
-    padding: 1rem;
+  padding: 1rem;
+}
+.resume {
+  background-color: rgb(237, 234, 234);
 }
 
-:root{
-    --color-primary: #0e0e10;
-    --color-secundary: #ed740a;
-    --color-terciary: #f7ceab;
-    font-family: "Anek+Devanagari", monospace;
-    background-color: #fcfcfc;
-    overflow-x: hidden;
-    font-size: 16px; /* deve ser sempre divísivelpor 8*/
+:root {
+  --color-primary: #0e0e10;
+  --color-secundary: #ed740a;
+  --color-terciary: #f7ceab;
+  /* font-family: "Anek+Devanagari", monospace; */
+  font-family: "Work+Sans", monospace;
 
+  overflow-x: hidden;
+  font-size: 16px; /* deve ser sempre divísivelpor 8*/
 }
 
 a {
-
-    text-decoration: none;
-    color: var(--color-terciary);
-
+  text-decoration: none;
+  color: var(--color-terciary);
 }
 
 i {
-
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
-li{
-    padding: .1rem;
+li {
+  padding: 0.3rem;
 }
-header, footer{
-    
-
-
-    display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center;
-    padding: 2rem;
-    background-color: var(--color-primary);
-    width: 100%;
-
+header,
+footer {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--color-primary);
+  width: 100%;
 }
 
 header .top-section {
-    display: flex;
-    justify-content: space-between; /* Space between figure and language selector */
-    align-items: center;
-    width: 100%; /* Full width for the top section */
+  display: flex;
+  justify-content: space-between; /* Space between figure and language selector */
+  align-items: center;
+  width: 80%;
+  margin-bottom: 0.3rem;
 }
 
-
 .header-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
-
-    width: 150px;
-    height: auto;
-    
-    
+  width: 150px;
+  height: auto;
+  margin-right: 1rem;
+  border-radius: 14px;
+  box-shadow: 1px -1px #ed740a;
 }
 figure {
-    display: flex;
-    
-    align-items: center;
-    margin-bottom: 0; /* Add space below the figure */
+  display: flex;
+
+  align-items: center;
+  margin-bottom: 0; /* Add space below the figure */
 }
 
 figcaption {
-    display: flex;
-    justify-content: space-between;
-    color: var(--color-secundary);
-    margin-top: 1rem; /* Adjust space between image and caption */
-    font-size: 2rem;
-    text-align: center;
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-secundary);
+  margin-top: 1rem; /* Adjust space between image and caption */
+  font-size: 2rem;
+  text-align: center;
 }
 
 ul {
-    display: flex; /* Make the list items horizontal */
-    justify-content: space-between; /* Distribute items evenly across the width */
-    width: 100%; /* Make the list fill the entire width of the header */
-    padding: 0;
-    margin-top: 1rem; /* Margin on top to separate from the top section */
+  display: flex; /* Make the list items horizontal */
+  justify-content: space-between; /* Distribute items evenly across the width */
+  width: 100%; /* Make the list fill the entire width of the header */
+  padding: 0;
+}
+
+.description-list {
+  display: inline;
+  text-align: start;
+  justify-content: space-evenly;
 }
 
 .list-items {
-    
-    flex: 1; /* Make each list item take equal space */
-    text-align: center; /* Center the content within each list item */
-    margin: 0;
-    color: var(--color-terciary);
-    font-size: 14px;
-    justify-content: space-around;
+  flex: 1; /* Make each list item take equal space */
+  text-align: center; /* Center the content within each list item */
+  margin: 0;
+  color: var(--color-terciary);
+  font-size: 14px;
+  justify-content: space-around;
 }
 
 .list-items a {
-    color: var(--color-terciary);
-    text-decoration: none;
+  color: var(--color-terciary);
+  text-decoration: none;
 }
 
 .list-items a:hover {
-    color: var(--color-secundary);
+  color: var(--color-secundary);
 }
 
-.left, .right {
-
-    padding: 1rem;
-    width: 45%;
-
+.left,
+.right {
+  padding: 1rem;
+  width: 45%;
 }
 
 h3 {
-
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 h4 {
-
-    font-size: 1.2rem;
-    font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
-h5{
-
-    font-style: italic;
-    font-size: 1.15rem;
-
+h5 {
+  font-style: italic;
+  font-size: 1.15rem;
 }
 
 hr {
-
-    width: 75%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    
+  width: 75%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .tech-item {
-
-    background-color: var(--color-terciary);
-    padding: 0.2rem;
-    margin: 0.3rem;
-    margin-top: 0.5rem; /* Adjusted margin-top */
-    border-radius: 5px;
-    color: #0e0e10;
-    display: inline-block;  /* This property allows the margin and padding settings to affect each span element properly without forcing them onto new lines (unless there's insufficient horizontal space). */
-    
+  background-color: var(--color-terciary);
+  padding: 0.2rem;
+  margin: 0.3rem;
+  margin-top: 0.5rem; /* Adjusted margin-top */
+  border-radius: 5px;
+  color: #0e0e10;
+  display: inline-block; /* This property allows the margin and padding settings to affect each span element properly without forcing them onto new lines (unless there's insufficient horizontal space). */
 }
 
 .HTML-lang {
-
-    margin-bottom: 1rem; /* Add space below the language selector */
-    text-align: center; 
-   
+  margin-bottom: 1rem; /* Add space below the language selector */
+  text-align: center;
+}
+.HTML-lang :hover {
+  color: #fcfcfc;
 }
 
+span {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.my-lang {
+  padding: 1rem;
+}
