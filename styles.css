@@ -176,19 +176,25 @@ p {
   padding: 1rem;
 }
 .resume {
-  background-color: rgb(237, 234, 234);
+  background-color: var(--color-terciary);
   font-family: "Oswald", sans-serif;
   line-height: 20px;
+
 }
 
 :root {
   --color-primary: #0e0e10;
-  --color-secundary: #ed740a;
-  --color-terciary: #f7ceab;
+  --color-secundary: #ed760eed;
+  --color-terciary: #f7ceabad;
   font-family: "Josefin+Sans", sans-serif;
 
   overflow-x: hidden;
   font-size: 16px; /* deve ser sempre divísivel por 8*/
+}
+
+.colorMain {
+  
+
 }
 
 a {
@@ -210,7 +216,7 @@ footer {
   align-items: center;
   padding: 2rem;
   background-color: var(--color-primary);
-  width: 100%;
+  
 }
 
 header .top-section {
@@ -242,10 +248,9 @@ figure {
 }
 
 figcaption {
-  display: flex;
+  
   justify-content: space-between;
   color: var(--color-secundary);
-  margin-top: 1rem; /* Adjust space between image and caption */
   font-size: 2rem;
   text-align: center;
 }
@@ -264,7 +269,7 @@ ul {
 
 
 .list-items a {
-  color: var(--color-terciary);
+  color: var(--color-secundary);
   text-decoration: none;
   align-items: start;
 }
