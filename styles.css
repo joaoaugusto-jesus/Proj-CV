@@ -125,7 +125,9 @@ table {
 
 /* --------------------- RESET END -----------------------------------*/
 
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 .text-center {
   text-align: center;
@@ -149,6 +151,10 @@ table {
 
 .my-1 {
   margin: 1rem 0;
+  
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
 }
 .HTML-lang {
   justify-content: center; /* Center the content within each .my-lang element */
@@ -171,17 +177,17 @@ p {
 }
 .resume {
   background-color: rgb(237, 234, 234);
+  font-family: "Oswald", sans-serif;
 }
 
 :root {
   --color-primary: #0e0e10;
   --color-secundary: #ed740a;
   --color-terciary: #f7ceab;
-  /* font-family: "Anek+Devanagari", monospace; */
-  font-family: "Work+Sans", monospace;
+  font-family: "Josefin+Sans", sans-serif;
 
   overflow-x: hidden;
-  font-size: 16px; /* deve ser sempre divísivelpor 8*/
+  font-size: 16px; /* deve ser sempre divísivel por 8*/
 }
 
 a {
@@ -282,11 +288,18 @@ ul {
 
 h3 {
   font-size: 1.3rem;
+  margin-bottom: .3rem;
+  font-family: "Josefin Sans";
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 h4 {
   font-size: 1.2rem;
   font-weight: 600;
+  
+  font-family: "Roboto";
 }
 
 h5 {
@@ -326,3 +339,6 @@ span {
 .my-lang {
   padding: 1rem;
 }
+
+
+ 
