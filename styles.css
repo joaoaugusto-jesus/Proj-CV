@@ -152,7 +152,7 @@ table {
 .my-1 {
   margin: 1rem 0;
   
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   line-height: 20px;
 }
@@ -178,6 +178,7 @@ p {
 .resume {
   background-color: rgb(237, 234, 234);
   font-family: "Oswald", sans-serif;
+  line-height: 20px;
 }
 
 :root {
@@ -252,7 +253,6 @@ figcaption {
 ul {
   display: flex; /* Make the list items horizontal */
   justify-content: space-between; /* Distribute items evenly across the width */
-  width: 100%; /* Make the list fill the entire width of the header */
   padding: 0;
 }
 
@@ -262,18 +262,11 @@ ul {
   justify-content: space-evenly;
 }
 
-.list-items {
-  flex: 1; /* Make each list item take equal space */
-  text-align: center; /* Center the content within each list item */
-  margin: 0;
-  color: var(--color-terciary);
-  font-size: 14px;
-  justify-content: space-around;
-}
 
 .list-items a {
   color: var(--color-terciary);
   text-decoration: none;
+  align-items: start;
 }
 
 .list-items a:hover {
@@ -291,16 +284,11 @@ h3 {
   margin-bottom: .3rem;
   font-family: "Josefin Sans";
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
 }
 
-h4 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  
-  font-family: "Roboto";
-}
+
 
 h5 {
   font-style: italic;
