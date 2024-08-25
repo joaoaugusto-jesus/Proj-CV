@@ -274,9 +274,9 @@ img {
 
 }
 figure {
-  position: relative; /* Ensure that the figcaption is positioned relative to the figure */
+  position: relative; 
   display: inline-block;
-  margin-bottom: 0; /* Add space below the figure */
+  margin-bottom: 0; 
 }
 
 figcaption {
@@ -395,3 +395,43 @@ article {
   justify-content: space-evenly;
 }
  
+
+
+/* ---------------------     @mediaqueries ------------------    */
+
+@media (max-width: 600px) {
+  .left,
+  .right {
+    padding: 1rem;
+    width: 100%;
+    display: block;
+  }
+
+  .d-flex {
+
+    flex-direction: column;
+   
+  }
+  .header-footer {
+
+    display: flex;
+  }
+
+  ul{
+    justify-content: flex-start;
+  }
+
+.HTML-lang {
+
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+}
+
+
+@media (max-width: 1250px) {
+  /* … */
+}
