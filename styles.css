@@ -385,8 +385,9 @@ article {
 
 
 .sub-section {
-
+ 
   margin-top: 2rem;
+  width: 90%;
 }
 
 .article-header {
@@ -395,6 +396,9 @@ article {
   justify-content: space-evenly;
 }
  
+article {
+  width: 86%; 
+}
 
 
 /* ---------------------     @mediaqueries ------------------    */
@@ -429,6 +433,37 @@ article {
   margin-top: 0.5rem;
 }
 
+.img-geeks {
+  margin: 0.5rem;
+  width: 44px;
+  height: auto;
+}
+
+
+.description-list {
+
+  display: inline;
+  text-align: center;
+}
+
+.li-professions {
+
+  width: 90%;
+}
+
+.resume{
+  width: 85%;
+}
+
+
+.sub-section {
+  border-bottom: 0.1rem solid var(--color-terciary);
+  padding: 0.9rem;
+  border-radius: 14px;
+  border-top: 0.1rem solid var(--color-terciary);
+  /* margin-top: 1rem; */
+  width: 86%;
+}
 }
 
 
