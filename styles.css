@@ -182,10 +182,15 @@ p {
   color:#3c3c44;
   font-weight: 500;
   font-optical-sizing: auto;
- 
+  width: 90%;
+  padding: 1rem;
   line-height: 28px;
   text-shadow: 1px 1px 0 #fcfcfc;
-  border-radius: 0 0 14px;
+  border-radius: 14px 14px 14px 14px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4%;
+  margin-top: 2rem;
 }
 
 :root {
@@ -251,7 +256,8 @@ img {
   height: auto;
   margin-right: 1rem;
   border-radius: 14px;
-  box-shadow: 1px -1px #ed740a;
+  box-shadow: 1px -1px 1px var(--color-terciary);
+  /* box-shadow: 1px -1px #ed740a; */
 }
 
 .img-geeks {
