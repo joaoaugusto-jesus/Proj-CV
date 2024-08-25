@@ -176,14 +176,20 @@ p {
   padding: 1rem;
 }
 .resume {
+  font-size: 20px;
   background-color: var(--color-terciary);
   font-family: "Oswald", sans-serif;
+  color:#3c3c44;
+  font-weight: 500;
+  font-optical-sizing: auto;
+ 
   line-height: 20px;
-
+  text-shadow: 1px 1px 0 #fcfcfc;
+  border-radius: 0 0 14px;
 }
 
 :root {
-  --color-primary: #0e0e10;
+  --color-primary: #28282bfa;
   --color-secundary: #ed760eed;
   --color-terciary: #f7ceabad;
   font-family: "Josefin+Sans", sans-serif;
@@ -192,10 +198,7 @@ p {
   font-size: 16px; /* deve ser sempre divísivel por 8*/
 }
 
-.colorMain {
-  
 
-}
 
 a {
   text-decoration: none;
@@ -204,6 +207,8 @@ a {
 
 i {
   margin-right: 1rem;
+  font-size: larger;
+  color: var(--color-secundary);
 }
 
 li {
@@ -333,5 +338,12 @@ span {
   padding: 1rem;
 }
 
+article {
+  margin-top: 0.3rem;
+  padding: 1rem;
+  border-bottom: 0.3rem solid #8a8787;
+  box-shadow: 0.1rem 0.1rem 0.3rem #8a8787;
+  border-radius: 14px;
+}
 
  
