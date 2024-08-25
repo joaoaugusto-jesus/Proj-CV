@@ -426,11 +426,12 @@ article {
   }
 
 .HTML-lang {
-
+  
+  font-size: 24px;
   display: flex;
   flex-direction: row;
-  margin-left: 2rem;
-  margin-top: 0.5rem;
+  margin-left: 3.5rem;
+  margin-top: 1.5rem;
 }
 
 .img-geeks {
@@ -463,6 +464,22 @@ article {
   border-top: 0.1rem solid var(--color-terciary);
   /* margin-top: 1rem; */
   width: 86%;
+}
+
+i{
+  font-size: 34px;
+
+}
+
+img {
+  width: 206px;
+ 
+}
+
+figcaption{
+
+  width: 95%;
+  left: 37%;
 }
 }
 
