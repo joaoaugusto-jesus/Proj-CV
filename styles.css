@@ -183,7 +183,7 @@ p {
   font-weight: 500;
   font-optical-sizing: auto;
  
-  line-height: 20px;
+  line-height: 28px;
   text-shadow: 1px 1px 0 #fcfcfc;
   border-radius: 0 0 14px;
 }
@@ -202,13 +202,21 @@ p {
 
 a {
   text-decoration: none;
-  color: var(--color-terciary);
+  color: var(--color-terciary); 
+ 
 }
 
 i {
   margin-right: 1rem;
   font-size: larger;
-  color: var(--color-secundary);
+ 
+ 
+}
+
+.icon-article {
+ color: var(--color-terciary); 
+  text-shadow: 1px 1px 0 #0e0e10;
+
 }
 
 li {
@@ -245,9 +253,15 @@ img {
   border-radius: 14px;
   box-shadow: 1px -1px #ed740a;
 }
+
+.img-geeks {
+
+  height: auto;
+  width: 72px;
+
+}
 figure {
   display: flex;
-
   align-items: center;
   margin-bottom: 0; /* Add space below the figure */
 }
@@ -274,7 +288,7 @@ ul {
 
 
 .list-items a {
-  color: var(--color-secundary);
+  color: var(--color-terciary);
   text-decoration: none;
   align-items: start;
 }
@@ -341,9 +355,20 @@ span {
 article {
   margin-top: 0.3rem;
   padding: 1rem;
-  border-bottom: 0.3rem solid #8a8787;
-  box-shadow: 0.1rem 0.1rem 0.3rem #8a8787;
+  /* border-bottom: 0.3rem solid #8a8787; */
+  box-shadow: 0.1rem 0.1rem 0.1rem #8a8787;
   border-radius: 14px;
 }
 
+
+.sub-section {
+
+  margin-top: 2rem;
+}
+
+.article-header {
+
+  align-items: center;
+  justify-content: space-evenly;
+}
  
