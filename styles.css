@@ -175,6 +175,13 @@ table {
 p {
   padding: 1rem;
 }
+
+.header-footer {
+  width: 81%;
+  justify-content: space-between;
+}
+
+
 .resume {
   font-size: 20px;
   background-color: var(--color-terciary);
@@ -267,18 +274,29 @@ img {
 
 }
 figure {
-  display: flex;
-  align-items: center;
+  position: relative; /* Ensure that the figcaption is positioned relative to the figure */
+  display: inline-block;
   margin-bottom: 0; /* Add space below the figure */
 }
 
 figcaption {
-  
-  justify-content: space-between;
+
+  box-shadow: inset -3px 4px 13px 0px var(--color-terciary);
+  border-radius: 5px;
+  background-color: var(--color-primary);
+  position: absolute;
+  bottom: 0;
+  left: 36%;
+  transform: translateX(-40%);
   color: var(--color-secundary);
-  font-size: 2rem;
+  font-size: 1.rem;
+  padding: 0.2rem;
+  width: 92%;
   text-align: center;
+  box-sizing: border-box;
 }
+  
+
 
 ul {
   display: flex; /* Make the list items horizontal */
@@ -342,8 +360,7 @@ hr {
 }
 
 .HTML-lang {
-  margin-bottom: 1rem; /* Add space below the language selector */
-  text-align: center;
+  justify-content: end;
 }
 .HTML-lang :hover {
   color: #fcfcfc;
