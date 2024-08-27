@@ -237,6 +237,7 @@ i {
 
 li {
   padding: 0.3rem;
+  
 }
 header,
 footer {
@@ -358,8 +359,8 @@ h5 {
 
 hr {
   width: 75%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .tech-item {
@@ -391,7 +392,7 @@ span {
 article {
   margin-top: 0.3rem;
   margin-bottom: 2rem;
-  padding: 1rem;
+  padding: 2rem;
   /* border-bottom: 0.3rem solid #8a8787; */
   box-shadow: 0.1rem 0.1rem 0.1rem #8a8787;
   border-radius: 14px;
