@@ -208,7 +208,7 @@ p {
   --color-primary: #28282bfa;
   --color-secundary: #ed760eed;
   --color-terciary: #f7ceabad;
-  font-family: "Josefin+Sans", sans-serif;
+  font-family: "Josefin+Sans", monospace;
 
   overflow-x: hidden;
   font-size: 16px; /* deve ser sempre divísivel por 8*/
@@ -273,6 +273,16 @@ header .top-section {
 
 .link-top-header a:hover {
   color: #fcfcfc;
+}
+
+.link-proj-git {
+
+  color: var(--color-primary);
+}
+
+.link-proj-git :hover{
+
+  color:  var(--color-secundary);
 }
 
 
