@@ -154,7 +154,7 @@ table {
 }
 
 .my-1 {
-  margin: 3rem 0;
+  margin: 1rem 0;
   
   font-weight: 500;
   font-style: normal;
@@ -275,7 +275,7 @@ img {
 .img-geeks {
 
   height: auto;
-  width: 72px;
+  width: 64px;
 
 }
 figure {
@@ -333,8 +333,7 @@ ul {
 }
 
 h3 {
-  font-size: 1.2rem;
-  margin-bottom: .3rem;
+  font-size: 2rem;
   font-family: "Oswald";
   font-optical-sizing: auto;
   font-weight: 600;
@@ -346,7 +345,6 @@ h4{
   font-size: 1.5rem;
   padding: 1rem;
   font-family: "Josefin Sans";
-  font-weight: 500;
 }
 
 
