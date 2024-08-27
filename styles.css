@@ -422,6 +422,11 @@ article {
     width: 100%;
     display: block;
   }
+  article {
+
+    border: 0.1rem solid black;
+    width: 76%;
+  }
 
   .d-flex {
 
