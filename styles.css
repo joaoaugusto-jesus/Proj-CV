@@ -263,6 +263,19 @@ header .top-section {
   align-items: center;
 }
 
+.link-top-header {
+  display: grid;
+}
+
+.link-top-header a {
+  padding: 0.3rem;
+}
+
+.link-top-header a:hover {
+  color: #fcfcfc;
+}
+
+
 img {
   width: 150px;
   height: auto;
