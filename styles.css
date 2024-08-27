@@ -423,7 +423,11 @@ article {
   justify-content: space-evenly;
 }
  
+.img-gallery{
 
+  width: 400px;
+  height: auto;
+}
 
 
 /* ---------------------     @mediaqueries ------------------    */
@@ -469,6 +473,7 @@ article {
   width: 44px;
   height: auto;
 }
+
 
 
 .description-list {
