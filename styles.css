@@ -155,7 +155,7 @@ table {
 
 .my-1 {
   margin: 1rem 0;
-  
+  color: var(--color-primary);
   font-weight: 500;
   font-style: normal;
   line-height: 20px;
@@ -226,15 +226,23 @@ i {
   margin-right: 1rem;
   font-size: larger;
  
- 
 }
+ 
+
 
 .icon-article {
  color: var(--color-terciary); 
   text-shadow: 1px 1px 0 #0e0e10;
-
+  
 }
-
+article i {
+  padding: 0.3rem;
+  font-size: 1.6rem; /* Adjust the size of the icons */
+  color: var(--color-primary); /* Change icon color to secondary color */
+  margin-right: 0.5rem; /* Add spacing to the right of the icon */
+  vertical-align: middle; /* Align icons vertically with text */
+  text-shadow: 1px 1px 1px var(--color-secundary); /* Add a subtle shadow to the icons */
+}
 li {
   padding: 0.3rem;
   
@@ -344,7 +352,7 @@ ul {
   text-decoration: none;
   align-items: start;
 }
-
+i
 .list-items a:hover {
   color: var(--color-secundary);
 }
@@ -362,6 +370,7 @@ h3 {
   font-weight: 600;
   font-style: normal;
   padding: 1rem;
+ 
 }
 
 h4{
