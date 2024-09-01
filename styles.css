@@ -350,14 +350,14 @@ ul {
 }
 
 
-.list-items a {
+.list-items {
   color: var(--color-terciary);
   text-decoration: none;
   align-items: start;
 }
-i
-.list-items a:hover {
-  color: var(--color-secundary);
+
+.list-items :hover {
+  color: var(--color-secundary)!important;
 }
 
 .left,
