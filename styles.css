@@ -129,9 +129,8 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .colorMain {
-  background: linear-gradient(85deg, #edc50e21 34%, #f7ceab1f 89%);
+  background: linear-gradient(85deg, #edebe159 34%, #f7ceab1f 89%)
 }
-
 
 .text-center {
   text-align: center;
@@ -185,6 +184,11 @@ p {
   justify-content: space-between;
 }
 
+.figcaption-name{
+
+  font-size: 24px;
+
+}
 
 .resume {
   font-size: 20px;
